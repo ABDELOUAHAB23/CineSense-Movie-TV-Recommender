@@ -8,7 +8,9 @@ L’utilisateur peut :
 - générer des recommandations personnalisées en fonction de ses goûts.
 
 ---
-
+## 📸 Screenshots
+![Home Page](assets/home.png)
+![Movie Page](assets/movie.png)
 ### Table des matières
 
 - [Description](#description)
