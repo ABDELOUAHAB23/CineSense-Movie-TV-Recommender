@@ -1,0 +1,18 @@
+/* Loading and Error States */
+.loading, .error-message {
+    text-align: center;
+    padding: 30px;
+    font-size: 1.3rem;
+    background-color: rgba(30, 30, 30, 0.6);
+    border-radius: 12px;
+    margin: 30px 0;
+  }
+  
+  .loading {
+    color: #ccc;
+  }
+  
+  .error-message {
+    color: #e50914;
+    border: 1px solid rgba(229, 9, 20, 0.3);
+  }

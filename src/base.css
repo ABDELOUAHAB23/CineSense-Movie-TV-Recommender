@@ -1,0 +1,40 @@
+/* General Styles */
+body {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  background-color: #080808;
+  background-image: linear-gradient(to bottom, #121212, #080808);
+  color: white;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.app {
+  padding: 24px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 35px;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.5px;
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.title:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 30%;
+  right: 30%;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #e50914, transparent);
+  border-radius: 4px;
+}

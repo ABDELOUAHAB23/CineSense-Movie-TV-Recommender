@@ -1,0 +1,139 @@
+/* Trailer Section */
+.trailer-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+    backdrop-filter: blur(8px);
+  }
+  
+  .trailer-content {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 900px;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    scrollbar-width: thin;
+    scrollbar-color: #555 #1a1a1a;
+  }
+  
+  .trailer-content::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .trailer-content::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+  
+  .trailer-content::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  .trailer-content h2 {
+    color: #e50914;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .trailer {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .no-trailer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.5);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .backdrop-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .movie-details {
+    margin-bottom: 25px;
+    background-color: rgba(51, 51, 51, 0.3);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .overview {
+    line-height: 1.6;
+    margin: 0 0 15px 0;
+    color: #ddd;
+  }
+  
+  /* Trailer Rating Buttons */
+  .trailer-rating-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .trailer-rating-buttons p {
+    margin: 0;
+    color: #bbb;
+  }
+  
+  .trailer-rating-buttons .like-button,
+  .trailer-rating-buttons .dislike-button {
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+    padding: 10px 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+  }
+  
+  .close-button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    display: block;
+    margin: 20px auto 0;
+    box-shadow: 0 4px 8px rgba(229, 9, 20, 0.3);
+  }
+  
+  .close-button:hover {
+    background-color: #b20710;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(229, 9, 20, 0.4);
+  }
