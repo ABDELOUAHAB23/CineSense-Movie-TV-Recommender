@@ -9,8 +9,9 @@ L’utilisateur peut :
 
 ---
 ## 📸 Screenshots
-![Home Page](assets/home.png)
-![Movie Page](assets/movie.png)
+![Home Page](Images/interface1.png)
+![Movie Page](Images/interface2.png)
+![traler Page](Images/interface3.png)
 ### Table des matières
 
 - [Description](#description)
